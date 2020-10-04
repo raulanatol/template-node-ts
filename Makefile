@@ -2,7 +2,7 @@
 
 init:
 	@echo "Initialising the project"
-	@yarn install
+	@yarn dev
 
 start:
 	@echo "🏃‍♀️ Starting project"
