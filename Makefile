@@ -2,11 +2,11 @@
 
 init:
 	@echo "Initialising the project"
-	@yarn dev
+	@yarn install
 
 start:
 	@echo "🏃‍♀️ Starting project"
-	@yarn start
+	@yarn dev
 
 check: --pre_check test build
 	@echo "✅"
